@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "github:build": "vite build --base /bill-upload/",
+    "github:build": "vite build --base ./ --mode stable",
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
